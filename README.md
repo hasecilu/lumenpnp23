@@ -1,3 +1,31 @@
+# LumenPnP 23
+
+This is my version of the LumenPnP project by Opulo. The main change I made was add NEMA 23 stepper motors on the X and Y axis. I expect to operate at higher velocities in the XY plane.
+
+WIP!
+
+In the `hasecilu` branch I will making my modifications.
+
+![LumenPnP23](img/LumenPnP23.jpg)
+
+## Assembly
+
+I'm playing with the `Assembly3` workbench, so I'm working in a new assembly without the `A2+` workbench.
+
+## Modifications
+
+There are 2 type of mods that I'm making, some FDM parts to accomodate the  NEMA 23 motors and some parts that I bought that are different from the used in the original project
+
+### List of mods
+
+* FDM-00WX
+* FDM-00YZ
+* Linear rails
+
+<p>
+<details>
+<summary>Click this to collapse/fold.</summary>
+
 # LumenPnP
 The LumenPnP is an open source [pick and place machine](https://en.wikipedia.org/wiki/Pick-and-place_machine) to aid in [Mid-Scale Manufacturing](http://stephenhawes.com/level-2-manufacturing/). 
 
@@ -22,21 +50,6 @@ If you would like to contribute to the project, awesome! Check out the [contribu
 ## Community
 Discussion about the project happens on the [STR Discord server](https://discordapp.com/invite/TCwy6De)!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
+</p>
 
