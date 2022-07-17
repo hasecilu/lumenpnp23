@@ -22,6 +22,10 @@ There are 2 type of mods that I'm making, some FDM parts to accomodate the  NEMA
 * FDM-00YZ
 * Linear rails
 
+## More
+
+[diy-pcb-cnc](https://gitlab.com/hasecilu/diy-pcb-cnc) my other project, a small 3 axis CNC machine for making PCB's and more.
+
 <p>
 <details>
 <summary>Click this to collapse/fold.</summary>
