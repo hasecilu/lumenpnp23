@@ -22,13 +22,22 @@ There are 2 type of mods that I'm making, some FDM parts to accomodate the  NEMA
 * FDM-00YZ
 * Linear rails
 
+| Changed part  |                Reason                |     
+| ------------------- | ------------------------------------ |
+| FDM-00WX     | NEMA23 instead NEMA17 |
+|                         | Another linear rails              |
+| Stepper driver |                                             |
+| Linear rails      |                                             |
+| Power supply  |                                             |
+
+
 ## More
 
 [diy-pcb-cnc](https://gitlab.com/hasecilu/diy-pcb-cnc) my other project, a small 3 axis CNC machine for making PCB's and more.
 
 <p>
 <details>
-<summary>Click this to collapse/fold.</summary>
+<summary>Original README. Click this to collapse/fold.</summary>
 
 # LumenPnP
 The LumenPnP is an open source [pick and place machine](https://en.wikipedia.org/wiki/Pick-and-place_machine) to aid in [Mid-Scale Manufacturing](http://stephenhawes.com/level-2-manufacturing/). 
