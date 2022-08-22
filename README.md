@@ -1,12 +1,20 @@
 # LumenPnP 23
 
-This is my version of the LumenPnP project by Opulo. The main change I made was add NEMA 23 stepper motors on the X and Y axis. I expect to operate at higher velocities in the XY plane.
+This is my version of the `LumenPnP` project by `Opulo`. The main change I made was add NEMA 23 stepper motors on the X and Y axis. I expect to operate at higher velocities in the XY plane.
 
 WIP!
 
 In the `hasecilu` branch I will making my modifications.
 
 ![LumenPnP23](img/LumenPnP23.jpg)
+
+24V and 12V power supply, TB6560 drivers to control the NEMA23 steppers and a differnet vacuum pump. Maybe in the future I'll move the power supplies outside the machine.
+
+![Electronics](img/power_electronics.jpg)
+
+Bottom view.
+
+![bottom view](img/bottom.jpg)
 
 ## Assembly
 
@@ -16,19 +24,38 @@ I'm playing with the `Assembly3` workbench, so I'm working in a new assembly wit
 
 There are 2 type of mods that I'm making, some FDM parts to accomodate the  NEMA 23 motors and some parts that I bought that are different from the used in the original project
 
-### List of mods
+The modified FDM models are in the `./pnp/cad/FDM/mods/` folder and extra models like 3rd party external `step` files are in the`./pnp/cad/EXTRA/` folder.
 
-* FDM-00WX
-* FDM-00YZ
+### FDM mods
+
+* FDM-0003_back-left-leg_uli.FCStd
+* FDM-0004_back-right-leg_uli.FCStd
+* FDM-0005_y-gantry_uli.FCStd
+* FDM-0006_x-motor-mount_uli.FCStd
+* FDM-0011_x-gantry-front_uli.FCStd
+* FDM-0017_z-gantry-left_uli.FCStd
+* FDM-0039_z-gantry-right_uli.FCStd
+* FDM-0040_z-gantry-backplate-left_uli.FCStd
+* FDM-0041_z-gantry-backplate-right_uli.FCStd 
+
+### Extra
+
 * Linear rails
+* Board4PowerElectronics.FCStd
+* Board4PowerElectronics_v2.FCStd
+* Mini vacuum pump.FCStd
+* PowerSupply_12V_3A.FCStd
+* PowerSupply_24V_10A.FCStd
+* TB6560.FCStd
 
-| Changed part  |                Reason                |     
-| ------------------- | ------------------------------------ |
-| FDM-00WX     | NEMA23 instead NEMA17 |
-|                         | Another linear rails              |
-| Stepper driver |                                             |
-| Linear rails      |                                             |
-| Power supply  |                                             |
+
+|  Changed part  |        Reason         |
+| -------------- | --------------------- |
+| FDM-00WX       | NEMA23 instead NEMA17 |
+|                | Another linear rails  |
+| Stepper driver |                       |
+| Linear rails   |                       |
+| Power supply   |                       |
 
 
 ## More
